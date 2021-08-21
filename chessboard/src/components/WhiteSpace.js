@@ -1,10 +1,10 @@
 import React from "react";
 import "./WhiteSpace.css";
 
-const Space = () => {
+const Space = (props) => {
   return (
     <div>
-      <div className="whiteSpace"></div>
+      <div className="whiteSpace" id={props.id}></div>
     </div>
   );
 };

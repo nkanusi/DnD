@@ -1,10 +1,10 @@
 import React from "react";
 import "./BlackSpace.css";
 
-function BlackSpace() {
+function BlackSpace(props) {
   return (
     <div>
-      <div className="blackSpace"></div>
+      <div className="blackSpace" id={props.id}></div>
     </div>
   );
 }
