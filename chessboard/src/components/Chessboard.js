@@ -2,14 +2,23 @@ import React from "react";
 import WhiteSpace from "./WhiteSpace";
 import BlackSpace from "./BlackSpace";
 import Label from "./Label";
-import Pawn from "./Pieces/Pawn";
 import "./Chessboard.css";
+
+//Pieces
+import Pawn from "./Pieces/Pawn";
+import Knight from "./Pieces/Knight";
+import Rook from "./Pieces/Rook";
+import Bishop from "./Pieces/Bishop";
+import Queen from "./Pieces/Queen";
+import King from "./Pieces/King";
 
 const Chessboard = () => {
   return (
     <div className="grid-container">
       <div className="row">
-        <WhiteSpace id="1" />
+        <WhiteSpace id="1">
+          <Pawn />
+        </WhiteSpace>
         <BlackSpace id="2" />
         <WhiteSpace id="3" />
         <BlackSpace id="4" />
@@ -89,7 +98,13 @@ const Chessboard = () => {
         <WhiteSpace id="64" />
       </div>
       <Label />
+
       <Pawn />
+      <Knight />
+      <Rook />
+      <Bishop />
+      <Queen />
+      <King />
     </div>
   );
 };
