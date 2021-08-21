@@ -5,7 +5,7 @@ import rook from "../../img/rook.png";
 function Rook() {
   return (
     <div>
-      <img src={rook} />
+      <img src={rook} alt="rook" />
     </div>
   );
 }

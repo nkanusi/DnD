@@ -5,7 +5,7 @@ import queen from "../../img/queen.png";
 function Queen() {
   return (
     <div>
-      <img src={queen} />
+      <img src={queen} alt="queen" />
     </div>
   );
 }

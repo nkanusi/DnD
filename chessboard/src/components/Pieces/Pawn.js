@@ -5,7 +5,7 @@ import pawn from "../../img/pawn.png";
 function Pawn() {
   return (
     <div>
-      <img src={pawn} />
+      <img src={pawn} alt="pawn" />
     </div>
   );
 }

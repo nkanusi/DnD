@@ -16,9 +16,7 @@ const Chessboard = () => {
   return (
     <div className="grid-container">
       <div className="row">
-        <WhiteSpace id="1">
-          <Pawn />
-        </WhiteSpace>
+        <WhiteSpace id="1" />
         <BlackSpace id="2" />
         <WhiteSpace id="3" />
         <BlackSpace id="4" />

@@ -5,7 +5,7 @@ import king from "../../img/king.png";
 function King() {
   return (
     <div>
-      <img src={king} />
+      <img src={king} alt="king" />
     </div>
   );
 }

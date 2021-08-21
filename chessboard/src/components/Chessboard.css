@@ -1,3 +1,7 @@
+.grid-container {
+  padding-top: 30px;
+}
+
 .row {
   width: 1000px;
   display: inline-flex;
