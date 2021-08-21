@@ -5,7 +5,7 @@ import bishop from "../../img/bishop.png";
 function Bishop() {
   return (
     <div>
-      <img src={bishop} />
+      <img src={bishop} alt="bishop" />
     </div>
   );
 }
