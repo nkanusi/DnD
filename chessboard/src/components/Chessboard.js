@@ -1,90 +1,93 @@
 import React from "react";
-import Space from "./Space";
+import WhiteSpace from "./WhiteSpace";
+import BlackSpace from "./BlackSpace";
+import Label from "./Label";
 import "./Chessboard.css";
 
 const Chessboard = () => {
   return (
-    <div>
+    <div className="board">
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
       </div>
       <div className="row">
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
-        <Space className="whiteSpace" />
-        <Space className="blackSpace" />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
+        <BlackSpace />
+        <WhiteSpace />
       </div>
+      <Label />
     </div>
   );
 };

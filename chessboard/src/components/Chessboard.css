@@ -1,13 +1,5 @@
-.blackSpace {
-  background-color: black;
-  display: inline-flex;
-}
-
-.whiteSpace {
-  background-color: white;
-  display: inline-flex;
-}
-
 .row {
+  width: 1000px;
   display: inline-flex;
+  margin: -4px auto;
 }
