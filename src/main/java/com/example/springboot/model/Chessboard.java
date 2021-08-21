@@ -1,9 +1,8 @@
 package com.example.springboot.model;
 
-import org.springframework.stereotype.Component;
+import lombok.Data;
 
-
-@Component
+@Data
 public class Chessboard {
 
     Pieces[][] board = new Pieces[8][8];
